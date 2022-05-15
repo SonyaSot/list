@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>PORTF</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div id="app">
+      <multiselect 
+         v-model="value" 
+         :options="options"
+         :multiple="true"
+         track-by="library"
+         :custom-label="customLabel"
+         >
+      </multiselect>
+   </div>
+<script  src="script.js"></script>
+
+</body>
+</html>
